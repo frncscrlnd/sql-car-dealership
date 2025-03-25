@@ -43,13 +43,11 @@ INSERT INTO Dealership (d_name, address) VALUES
 ('SuperAuto Roma', 'Via del Corso 120, Rome'),
 ('SpeedCar Torino', 'Corso Vittorio Emanuele 80, Turin');
 
-
 INSERT INTO Manufacturer (m_name) VALUES 
 ('Ferrari'),
 ('BMW'),
 ('Tesla'),
 ('Toyota');
-
 
 INSERT INTO Model (m_name, manufacturer_id) VALUES 
 ('Ferrari SF90', 1),
