@@ -1,4 +1,4 @@
-# sql-car-dealership
+# sql-car-dealerships
 SQL practice project
 ### ITA
 ## Consegna
