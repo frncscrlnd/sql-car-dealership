@@ -69,7 +69,7 @@ INSERT INTO LicensePlate (vehicle_id, plate) VALUES
 (3, 'IJ789KL'),
 (4, 'MN012OP');
 
--- Show all the dealership a vehicle is sold in based on its' license plate
+-- Show all the dealerships a vehicle is sold in based on its' license plate
 SELECT  LicensePlate.plate AS license_plate, Vehicle.v_name, Vehicle.chassis_number, Vehicle.color, model.m_name AS model, Manufacturer.m_name AS manufacturer, Dealership.d_name AS dealership, Dealership.address AS address
 FROM LicensePlate
 JOIN Vehicle ON LicensePlate.vehicle_id = Vehicle.id
