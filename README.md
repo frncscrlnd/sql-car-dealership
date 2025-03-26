@@ -10,7 +10,7 @@ L'obiettivo è di tenere traccia delle concessionarie, case produttrici, modelli
 - ogni concessionaria vende più veicoli;
 - ad ogni veicolo immatricolato è assegnata una sola targa.
 ## Grafico ER
-![dealerships](https://github.com/user-attachments/assets/823415eb-8fca-4948-827f-a96057034094)
+![image](https://github.com/user-attachments/assets/fae9d66a-5758-402f-9d89-b7123f3e164b)
 ### ENG
 ## Assignment
 Draw the ER diagram and code a DB structure for some car delerships.
@@ -21,7 +21,8 @@ The goal is to keep track of dealerships, car manufacturers, models, vehicles an
 - each dealership sells many vehicles;
 - only registered cars are assigned a single license plate.
 ## ER diagram 
-![dealerships](https://github.com/user-attachments/assets/20f314b1-e09a-4f0d-920e-83fc2d55e96b)
+![image](https://github.com/user-attachments/assets/f106078d-de38-4e32-9d5c-1d60d5424ada)
+
 
 
 
