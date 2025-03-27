@@ -92,7 +92,7 @@ JOIN Model ON Vehicle.model_id = Model.id
 JOIN Manufacturer ON Model.Manufacturer_id = Manufacturer.id
 JOIN Dealership ON Vehicle.dealership_id = Dealership.id;
 
--- Show all bought cars
+-- Show all sold cars
 SELECT Sales.id AS sale_id, Sales.customer, Sales.amount, Sales.chassis_number, Dealership.d_name AS dealership, Dealership.address AS dealership_address, Manufacturer.m_name AS manufacturer
 FROM Sales
 JOIN Dealership ON Sales.dealership_id = Dealership.id
